@@ -12,7 +12,6 @@ const seconds = document.querySelector(".seconds");
 })();
 function updateClock(){
      const time =new Date().toTimeString().split(" ")[0];
-     let hrs = time.split(":")[0];
      let mins = time.split(":")[1];
      let sec = time.split(":")[2];
 
